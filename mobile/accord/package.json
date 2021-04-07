@@ -1,0 +1,19 @@
+{
+  "name": "accord",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "events": "^1.1.1",
+    "expo": "^22.0.0",
+    "native-base": "^2.3.3",
+    "net": "^1.0.2",
+    "react": "16.0.0-beta.5",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-22.0.1.tar.gz",
+    "react-navigation": "^1.0.0-beta.15",
+    "sockjs-client": "^1.1.4",
+    "stompjs": "^2.3.3"
+  }
+}

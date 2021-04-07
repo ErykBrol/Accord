@@ -1,0 +1,18 @@
+language: java
+jdk:
+- oraclejdk8
+branches:
+  only:
+  - platform
+before_script: cd server
+deploy:
+ provider: heroku
+ api-key: 
+  secure: 8dc7c9e4-183b-4f4b-a644-64f894ea7b1b
+ app: accord-platform
+ on:
+  repo: jessecordeiro/project-team-13
+  branch: platform
+notifications:
+  slack:
+    secure: PJNsRy1c1fpsHwq7y3iRm5nQXKvqgny+olsLb6r784NRpLi+t5IfN5q8HVe0e2ZTJEyiWwZMQBZ6vrOp8hAVqNIyzxusi1ZUIfV8cMMTmiBBJlPjPMhfykf+mdkd33vsXoEadPpG0uomk2OfnRmc4u5HgV3O92jmq4fMzQGEHCxoNb0tgTFYx3pkKQOptMBe7/ppImCFTEIG3ARGyhRRDVqEKuF+2f+jrCcHaAGcuziYcTvNqOX1vrtEldkyNpKq7/jkBLcm7COg+wQn3UcdUHQL0OwShfiPhcNBvkFluUstRU34I/DBynxA1qqoyPO2+ve9DjEoarphA4Ey2TS06DuypGkRLVU76ZL2rDrPkaVygBUPRpi9/njLEpSwTjPllePyFe9YxEeHJBz2pJyN2N+qAQYQKjyzuQ+wozwQrzzy8CNZAe/M3X6wgB8Ppso+T/id4ktyplPVV4ES9uXuX6/0Nzwqr0lX/cfeorhUI0Z2xXSEblTn0EpHF4sTPBVUlPoXpFTWIX0LSV1QgM1bz8usKyA1/zQJf7YOYfjG4E4Y0WZwQ8XXHtcEgHGPmqiiAh1LeRZCzS6rYHTM5YpO5Zprr/naZLd+qYzFUsS+uGE2vnKye0C0yDzA58FzOQWjavHsF+QsxfIsiKxDzCnDjg5z0FOR6NHkRTYITMC/BlA=

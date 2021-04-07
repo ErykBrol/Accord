@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+    <bean name="roomService" class="org.accord.platform.services.RoomService"/>
+    <bean name="tournamentService" class="org.accord.platform.services.TournamentService"/>
+    <bean name="suggestionsService" class="org.accord.platform.services.SuggestionsService"/>
+    <bean name="roomController" class="org.accord.platform.controllers.RoomController"/>
+    <bean name="submissionController" class="org.accord.platform.controllers.SubmissionController"/>
+    <bean name="brokerChannel" class="org.springframework.messaging.support.ExecutorSubscribableChannel"/>
+    <bean name="simpMessagingTemplate" class="org.springframework.messaging.simp.SimpMessagingTemplate">
+        <constructor-arg ref="brokerChannel"/>
+    </bean>
+</beans>
