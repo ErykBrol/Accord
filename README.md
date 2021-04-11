@@ -1,5 +1,9 @@
 # Accord - Choices just got a lot more fun
 
+<p align="center">
+  <img src="https://github.com/ErykBrol/Accord/blob/main/res/accord_logo.png" alt="Accord logo" width="200" />
+</p>
+
 **What is Accord?**
 
 Accord was inspired by our team's inability to choose where to get dinner after class. We didn't like relying on a single person in the group to decide, nor were we able to all come to a unified decision after everyone's ideas were on the table. Taking some additional inspiration from the popular quiz app Kahoot, we decided to go with a similar approach and applied it to make decisions.
@@ -10,9 +14,17 @@ Accord takes suggestions provided by users and throws them into a tournament-sty
 
 ### Rooms
 
+<p align="center">
+  <img src="https://github.com/ErykBrol/Accord/blob/main/res/accord_room_join.png" alt="Accord logo" height="400"/>
+</p>
+
 Easily joining a decision-making session is an important part of our app. Our room-based architecture is ideal for this, requiring one user to start a room and then share a short alphanumeric code to the rest of the group. This means there is almost no setup required and your decisions are private to only those in your room.
 
 ### Tournament Bracket
+
+<p align="center">
+  <img src="https://github.com/ErykBrol/Accord/blob/main/res/accord_ideas.png" alt="Accord logo" height="400"/>
+</p>
 
 Being faced with a handful of options and trying to choose one of them is inherently more difficult than a simple A vs B choice. We used this idea when designing how our app will help users determine a winning choice. After the initial round of submitting ideas, all the choices are thrown into a tournament-style bracket, and each 1-on-1 'battle' is presented to all users. The only thing the user needs to do is select one over the other. Total votes then determine which idea moves on, with one final result prevailing when the dust settles.
 
@@ -21,6 +33,11 @@ Being faced with a handful of options and trying to choose one of them is inhere
 Sometimes users could use a little extra help in submitting ideas to be decided between in the initial phase of the Accord process. Our suggestions feature comes in handy here, giving users potential ideas for popular topics like places to eat. These suggestions are taken from previous ideas that were suggested for similar decisions and only get better and more plentiful the more the app is used.
 
 Once the final decision is made, our results screen is tailored to give you as much info as possible. Leveraging Google Maps API, popular choices like places to eat will also present users with nearby locations of the selected place. This allows for a seamless transition between having made a decision and acting on it.
+
+<p align="center">
+  <img src="https://github.com/ErykBrol/Accord/blob/main/res/accord_voting_result_map.png" alt="Accord logo" height="400"/>
+</p>
+
 
 ------
 
