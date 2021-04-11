@@ -15,7 +15,7 @@ Accord takes suggestions provided by users and throws them into a tournament-sty
 ### Rooms
 
 <p align="center">
-  <img src="https://github.com/ErykBrol/Accord/blob/main/res/accord_room_join.png" alt="Accord logo" height="400"/>
+  <img src="https://github.com/ErykBrol/Accord/blob/main/res/accord_room_join.png" alt="Accord room joining screens" height="400"/>
 </p>
 
 Easily joining a decision-making session is an important part of our app. Our room-based architecture is ideal for this, requiring one user to start a room and then share a short alphanumeric code to the rest of the group. This means there is almost no setup required and your decisions are private to only those in your room.
@@ -23,7 +23,7 @@ Easily joining a decision-making session is an important part of our app. Our ro
 ### Tournament Bracket
 
 <p align="center">
-  <img src="https://github.com/ErykBrol/Accord/blob/main/res/accord_ideas.png" alt="Accord logo" height="400"/>
+  <img src="https://github.com/ErykBrol/Accord/blob/main/res/accord_ideas.png" alt="Accord idea submission" height="400"/>
 </p>
 
 Being faced with a handful of options and trying to choose one of them is inherently more difficult than a simple A vs B choice. We used this idea when designing how our app will help users determine a winning choice. After the initial round of submitting ideas, all the choices are thrown into a tournament-style bracket, and each 1-on-1 'battle' is presented to all users. The only thing the user needs to do is select one over the other. Total votes then determine which idea moves on, with one final result prevailing when the dust settles.
@@ -35,7 +35,7 @@ Sometimes users could use a little extra help in submitting ideas to be decided 
 Once the final decision is made, our results screen is tailored to give you as much info as possible. Leveraging Google Maps API, popular choices like places to eat will also present users with nearby locations of the selected place. This allows for a seamless transition between having made a decision and acting on it.
 
 <p align="center">
-  <img src="https://github.com/ErykBrol/Accord/blob/main/res/accord_voting_result_map.png" alt="Accord logo" height="400"/>
+  <img src="https://github.com/ErykBrol/Accord/blob/main/res/accord_voting_result_map.png" alt="Accord voting, results list, and map" height="400"/>
 </p>
 
 
